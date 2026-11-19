@@ -74,3 +74,7 @@ Consulta `VERIFICACION.md`. Las funcionalidades adicionales quedan pendientes de
 Para conservar los datos de forma fiable usa `ABRIR-TOMO.command` / `python3 iniciar.py`: el lanzador ahora utiliza siempre `http://127.0.0.1:4175/`. Si ese puerto está ocupado, cierra la sesión anterior de TOMO antes de abrir otra. Cada navegador y origen tiene su propio localStorage. Algunos navegadores restringen su uso desde archivos `file://`; si ocurre, TOMO avisa y conserva los cambios solo durante la sesión. El HTML portátil sigue disponible.
 
 Pruebas del modelo: `npm test`. No hay backend, procesamiento de pagos, autenticación externa ni envío de notificaciones.
+
+## Versión publicada
+
+[TOMO en GitHub Pages](https://danirooru.github.io/TOMO/). La rama `gh-pages` contiene la versión publicada. `python3 scripts/pages.py` prepara el sitio en `_site`, con el HTML portátil y los recursos para agregar TOMO al inicio del celular.

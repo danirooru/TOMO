@@ -5,3 +5,5 @@ node_modules/
 # Archivos comprimidos de entrega y cachés locales
 *.zip
 __pycache__/
+
+_site/
